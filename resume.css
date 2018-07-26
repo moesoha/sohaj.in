@@ -25,6 +25,39 @@ body {
 	margin: 23.33px 12vw;	
 }
 
+.resume .text-block p {
+	margin-left: 2em;
+}
+
+.resume details {
+	margin-left: 2em;
+}
+
+.large-block .text-block {
+	margin-left: 1.6em;
+}
+
+@media only screen and (max-width: 768px) {
+    .resume {
+		background-color: rgba(255,255,255,0.6);
+		padding: 1em;
+		box-shadow:#888 1px 1px 5.4px;
+		margin: 23.33px 2.33vw;	
+	}
+
+	.resume .text-block p {
+		margin-left: 1.2em;
+	}
+	
+	.resume details {
+		margin-left: 1.2em;
+	}
+	
+	.large-block .text-block {
+		margin-left: 0.8em;
+	}
+}
+
 .landing {
 	min-height: 100vh;
 	padding: 0 auto;
