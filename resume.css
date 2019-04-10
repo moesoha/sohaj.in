@@ -12,6 +12,11 @@
 	font-family: "FontAwesome" !important;
 }
 
+/* ↓ Don't let her know. */
+h0 {
+	display: none;
+}
+
 body {
 	background-color: #ffc0cb;
 	color: #7a776e;
